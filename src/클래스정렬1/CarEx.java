@@ -18,5 +18,6 @@ public class CarEx implements Comparable<CarEx> {
             return this.modelName.compareTo(o.modelName); // 이름을 기분으로 사전순 정렬
         } else if (this.modelYear < o.modelYear) return -1;
         else return 1;
+
     }
 }

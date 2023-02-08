@@ -10,7 +10,7 @@ import java.util.Properties;
 public class PropertiesEx {
     public static void main(String[] args) throws IOException {
         Properties properties = new Properties();
-        String path = PropertiesEx.class.getResource("./database.properties").getPath(); // 절대 경로
+        String path = PropertiesEx.class.getResource("예외처리2번/database.properties").getPath(); // 절대 경로
         path = URLDecoder.decode(path, "utf-8");
         properties.load(new FileReader(path));
         String driver = properties.getProperty(("driver"));

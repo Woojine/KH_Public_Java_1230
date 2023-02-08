@@ -18,6 +18,12 @@ public class CoffeeMenuEx {
         map.put("Americano", new MenuInfo("Americano", 2500, "Coffee", "기본 커피 입니다."));
         map.put("Espresso", new MenuInfo("Espresso", 2500, "Coffee", "진한 커피 입니다."));
         map.put("Latte", new MenuInfo("Latte", 4000, "Coffee", "우유가 들어 있어요."));
+        map.put("ColdBrew", new MenuInfo("ColdBrew", 5500, "Coffee", "비싼 커피 입니다."));
+        map.put("LemonAde", new MenuInfo("LemonAde", 5800, "Ade", "레몬에이드 입니다."));
+        map.put("PeachAde", new MenuInfo("PeachAde", 5800, "Ade", "복숭아에이드 입니다."));
+        map.put("BlackTea", new MenuInfo("BlackTea", 6000, "Tea", "홍차 입니다."));
+        map.put("GreenTea", new MenuInfo("GreenTea", 5300, "Tea", "녹차 입니다."));
+        map.put("MilkTea", new MenuInfo("MilkTea", 4500, "Tea", "밀크티 입니다."));
     }
 
     void selectMenu() {
